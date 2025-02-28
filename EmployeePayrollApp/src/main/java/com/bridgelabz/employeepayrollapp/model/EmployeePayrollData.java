@@ -3,6 +3,7 @@ package com.bridgelabz.employeepayrollapp.model;
 import com.bridgelabz.employeepayrollapp.DTO.EmployeePayrollDTO;
 import lombok.Data;
 
+import java.time.LocalDate;
 import java.util.List;
 
 public @Data class EmployeePayrollData {
@@ -10,7 +11,7 @@ public @Data class EmployeePayrollData {
     private String name;
     private long salary;
     private String gender;
-    private String startDate;
+    private LocalDate startDate;
     private String note;
     private String profilePic;
     private List<String> department;
