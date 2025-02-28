@@ -72,3 +72,37 @@ com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollException: Employee 
 2025-02-28T00:47:27.326+05:30  INFO 10988 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll app started in DEV environment
 2025-02-28T00:47:27.329+05:30  INFO 10988 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll db user is uday
 2025-02-28T00:47:34.572+05:30  WARN 10988 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollException: Employee not found ]
+2025-02-28T15:09:02.054+05:30  INFO 5132 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.8 with PID 5132 (D:\CG_EmployeePayrollApp\EmployeePayrollApp\target\classes started by udayp in D:\CG_EmployeePayrollApp\EmployeePayrollApp)
+2025-02-28T15:09:02.058+05:30 DEBUG 5132 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-28T15:09:02.059+05:30  INFO 5132 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2025-02-28T15:09:07.438+05:30  WARN 5132 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-28T15:09:08.101+05:30  INFO 5132 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 6.915 seconds (process running for 7.998)
+2025-02-28T15:09:08.107+05:30  INFO 5132 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll app started in DEV environment
+2025-02-28T15:09:08.108+05:30  INFO 5132 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll db user is uday
+2025-02-28T15:09:32.403+05:30  WARN 5132 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollException: Employee not found ]
+2025-02-28T15:13:51.341+05:30  WARN 5132 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-02-28T15:13:56.836+05:30  WARN 5132 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-02-28T15:27:36.023+05:30  WARN 5132 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m29s150ms602µs700ns).
+2025-02-28T15:27:42.796+05:30  WARN 5132 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-02-28T15:27:44.575+05:30  WARN 5132 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-02-28T15:40:24.585+05:30  INFO 1328 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.8 with PID 1328 (D:\CG_EmployeePayrollApp\EmployeePayrollApp\target\classes started by udayp in D:\CG_EmployeePayrollApp\EmployeePayrollApp)
+2025-02-28T15:40:24.590+05:30 DEBUG 1328 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-28T15:40:24.593+05:30  INFO 1328 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2025-02-28T15:40:31.512+05:30  WARN 1328 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-28T15:40:32.639+05:30  INFO 1328 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 9.106 seconds (process running for 10.205)
+2025-02-28T15:40:32.647+05:30  INFO 1328 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll app started in DEV environment
+2025-02-28T15:40:32.650+05:30  INFO 1328 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll db user is uday
+2025-02-28T15:40:58.995+05:30  INFO 19484 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.8 with PID 19484 (D:\CG_EmployeePayrollApp\EmployeePayrollApp\target\classes started by udayp in D:\CG_EmployeePayrollApp\EmployeePayrollApp)
+2025-02-28T15:40:59.001+05:30 DEBUG 19484 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-28T15:40:59.003+05:30  INFO 19484 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2025-02-28T15:41:05.047+05:30  WARN 19484 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-28T15:41:05.915+05:30  INFO 19484 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 8.025 seconds (process running for 9.334)
+2025-02-28T15:41:05.922+05:30  INFO 19484 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll app started in DEV environment
+2025-02-28T15:41:05.924+05:30  INFO 19484 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll db user is uday
+2025-02-28T15:42:57.810+05:30  INFO 3712 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.8 with PID 3712 (D:\CG_EmployeePayrollApp\EmployeePayrollApp\target\classes started by udayp in D:\CG_EmployeePayrollApp\EmployeePayrollApp)
+2025-02-28T15:42:57.817+05:30 DEBUG 3712 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-02-28T15:42:57.819+05:30  INFO 3712 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2025-02-28T15:43:03.981+05:30  WARN 3712 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-28T15:43:04.855+05:30  INFO 3712 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 8.092 seconds (process running for 9.094)
+2025-02-28T15:43:04.864+05:30  INFO 3712 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll app started in DEV environment
+2025-02-28T15:43:04.867+05:30  INFO 3712 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll db user is uday
