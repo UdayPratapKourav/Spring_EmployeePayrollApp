@@ -474,3 +474,11 @@ java.lang.NullPointerException: Cannot invoke "com.bridgelabz.employeepayrollapp
 2025-03-01T13:34:13.605+05:30  INFO 14256 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll app started in DEV environment
 2025-03-01T13:34:13.608+05:30  INFO 14256 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll db user is uday
 2025-03-01T13:34:19.830+05:30 DEBUG 14256 --- [http-nio-8080-exec-2] c.b.e.services.EmployeePayrollService    : Emp Data :EmployeePayrollData(employeeId=0, name=John Doe, salary=50000, gender=male, startDate=2023-05-01, note=Software Engineer, profilePic=https://example.com/profile.jpg, department=[IT, HR])
+2025-03-01T13:54:46.314+05:30  INFO 15964 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.8 with PID 15964 (D:\CG_EmployeePayrollApp\EmployeePayrollApp\target\classes started by udayp in D:\CG_EmployeePayrollApp\EmployeePayrollApp)
+2025-03-01T13:54:46.319+05:30 DEBUG 15964 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v3.3.9, Spring v6.1.17
+2025-03-01T13:54:46.321+05:30  INFO 15964 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : The following 1 profile is active: "dev"
+2025-03-01T13:54:52.485+05:30  WARN 15964 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01T13:54:53.039+05:30  INFO 15964 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 7.642 seconds (process running for 8.442)
+2025-03-01T13:54:53.047+05:30  INFO 15964 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll app started in DEV environment
+2025-03-01T13:54:53.050+05:30  INFO 15964 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee payroll db user is uday
+2025-03-01T13:55:00.135+05:30 DEBUG 15964 --- [http-nio-8080-exec-1] c.b.e.services.EmployeePayrollService    : Emp Data :EmployeePayrollData(employeeId=0, name=John Doe, salary=50000, gender=male, startDate=2023-05-01, note=Software Engineer, profilePic=https://example.com/profile.jpg, department=[IT, HR])
