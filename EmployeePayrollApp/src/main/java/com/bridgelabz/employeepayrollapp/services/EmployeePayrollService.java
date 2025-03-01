@@ -3,12 +3,18 @@ package com.bridgelabz.employeepayrollapp.services;
 import com.bridgelabz.employeepayrollapp.DTO.EmployeePayrollDTO;
 import com.bridgelabz.employeepayrollapp.exceptions.EmployeePayrollException;
 import com.bridgelabz.employeepayrollapp.model.EmployeePayrollData;
+import com.bridgelabz.employeepayrollapp.repository.EmployeePayrollRepository;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 @Service
+@Slf4j
 public class EmployeePayrollService implements IEmployeePayrollService{
+    @Autowired
+    private EmployeePayrollRepository employeeRepository;
 
     private List<EmployeePayrollData> employeePayrollList=new ArrayList<>();
 
@@ -23,12 +29,18 @@ public class EmployeePayrollService implements IEmployeePayrollService{
         return employeePayrollList.stream().filter(employeePayrollData -> employeePayrollData.getEmployeeId() == empId).findFirst().orElseThrow(()->new EmployeePayrollException("Employee not found "));
     }
 
-    @Override
-    public EmployeePayrollData createEmployeePayrollDaya(EmployeePayrollDTO employeePayrollDTO) {
-       EmployeePayrollData employeePayrollData=null;
-       employeePayrollData=new EmployeePayrollData(employeePayrollList.size()+1,employeePayrollDTO);
-       employeePayrollList.add(employeePayrollData);
-        return employeePayrollData;
+//    @Override
+//    public EmployeePayrollData createEmployeePayrollDaya(EmployeePayrollDTO employeePayrollDTO) {
+//       EmployeePayrollData employeePayrollData=null;
+////       employeePayrollData=new EmployeePayrollData(employeePayrollList.size()+1,employeePayrollDTO);
+//       employeePayrollList.add(employeePayrollData);
+//        return employeePayrollData;
+//    }
+    public EmployeePayrollData createEmployeePayrollData(EmployeePayrollDTO employeePayrollDTO){
+        EmployeePayrollData empData=new EmployeePayrollData(employeePayrollDTO);
+//        empData=new EmployeePayrollData(employeePayrollList.size()+1,employeePayrollDTO);
+        log.debug("Emp Data :"+empData.toString());
+        return employeeRepository.save(empData);
     }
 
     @Override
