@@ -42,9 +42,7 @@ public class EmployeePayrollService implements IEmployeePayrollService{
 
        EmployeePayrollData employeePayrollData=this.getEmployeePayrollDataById(empId);
        employeePayrollData.updateEmployeePayrollData(employeePayrollDTO);
-//       employeePayrollData.setName(employeePayrollDTO.name);
-//       employeePayrollData.setSalary(employeePayrollDTO.salary);
-//       employeePayrollList.set(empId-1,employeePayrollData);
+
         return employeeRepository.save(employeePayrollData);
     }
 
@@ -53,5 +51,10 @@ public class EmployeePayrollService implements IEmployeePayrollService{
         EmployeePayrollData employeePayrollData=this.getEmployeePayrollDataById(empId);
         employeeRepository.delete(employeePayrollData);
 
+    }
+
+    @Override
+    public List<EmployeePayrollData> getEmployeesByDepartment(String department) {
+        return employeeRepository.findEmployeesByDepartment(department);
     }
 }
